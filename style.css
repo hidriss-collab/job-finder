@@ -1,0 +1,116 @@
+title {
+    font-size: 26px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f5;
+    color: #1f2933;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #d9e2dc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+button {
+    background-color: #ffffff;
+    color: #2e7d32;
+    border: 1px solid #2e7d32;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input {
+    border: 1px solid #b8c4bc;
+    background-color: white;
+    color: #1f2933;
+    padding: 12px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #1b5e20;
+    color: beige;
+}
+
+.job-card {
+    border: 1px solid #d9e2dc;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.job-card h3 {
+    color: #2e7d32;
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.job-card p {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.job-card a {
+    font-size: 17px;
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .job-card{
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
